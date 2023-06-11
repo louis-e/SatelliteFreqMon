@@ -1,4 +1,4 @@
-# Automated Satellite SDR Groundstation
+# SatelliteFreqMon - _Automated Satellite Tracking and Precise Frequency Recording_
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-380/)
@@ -8,7 +8,7 @@ The goal of this project is to provide a comprehensive open source solution for 
 
 ## Hardware Setup
 
-<img src="git-assets/hardware-setup.png?raw=true" width="70%">
+<img src="git-assets/hardware-setup.png?raw=true" width="75%">
 
 ### Hardware List
 - RTL-SDR RTL2832U Dongle
@@ -54,7 +54,7 @@ M WFM 40000 RPRT 0
 AOS RPRT 0
 ```
 
-<img src="git-assets/gqrx-noaa.png?raw=true" width="50%">
+<img src="git-assets/gqrx-noaa.png?raw=true" width="65%">
 
 ## Maintainership and License
 
