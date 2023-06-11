@@ -1,0 +1,2 @@
+PyAudio==0.2.13
+orbit-predictor==1.15.0
