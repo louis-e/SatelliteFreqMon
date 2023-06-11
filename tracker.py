@@ -67,7 +67,7 @@ def pass_watchdog():
         return
 
     for element in pass_list:
-        if element[6] == 0 and datetime.strptime(element[1], "%Y-%m-%d %H:%M:%S") <= datetime.now(): # Aquistion of signal (AOS)
+        if element[6] == 0 and datetime.strptime(element[1], "%Y-%m-%d %H:%M:%S") <= datetime.now(): # Acquisition of signal (AOS)
             print(f"=== {element[0]} overpass ({element[1]} - {element[2]} for {element[3]}) on {element[4]}KHz")
             for passes in pass_list:
                 if passes[6] == 1:
